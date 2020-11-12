@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.jximing.json2obj.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.jximing.json2obj.MyBundle
 
 class MyApplicationService {
 
