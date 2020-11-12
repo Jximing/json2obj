@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin require-restart="true">
     <id>com.github.jximing.json2obj</id>
     <name>json2obj</name>
     <vendor>jximing</vendor>
