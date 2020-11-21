@@ -16,4 +16,15 @@
         <listener class="com.github.jximing.json2obj.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+    <actions>
+        <action id="com.github.jximing.json2obj.actions.Obj2Json"
+                class="com.github.jximing.json2obj.actions.Obj2Json" text="Obj2Json"
+                description="Obj to Json">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+        <action id="com.github.jximing.json2obj.ktaction.Json2Obj" class="com.github.jximing.json2obj.ktaction.Json2Obj"
+                text="Json2Obj" description="Json to Obj">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>
